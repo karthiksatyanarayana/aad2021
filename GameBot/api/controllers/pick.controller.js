@@ -21,7 +21,6 @@ const pick = async (req, res) => {
     // }
     
     if (player1Name == "Brain") {
-        strategyOption = "CUSTOM";
         result.text = "paper";
      }
 
